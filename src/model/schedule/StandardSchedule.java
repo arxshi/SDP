@@ -18,12 +18,6 @@ public class StandardSchedule implements Cloneable {
 
     @Override
     public StandardSchedule clone() {
-        try {
-            StandardSchedule clone = (StandardSchedule) super.clone();
-            // TODO: copy mutable state here, so the clone can't change the internals of the original
-            return clone;
-        } catch (CloneNotSupportedException e) {
-            throw new AssertionError();
-        }
+        return new StandardSchedule(this.time);
     }
 }
