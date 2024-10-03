@@ -1,4 +1,4 @@
-package factory.movie;
+package factory.button;
 
 import model.button.Button;
 
