@@ -1,6 +1,6 @@
 package model.schedule;
 
-public class StandardSchedule implements Cloneable {
+public class StandardSchedule implements Schedule {
 
     private String time;
     public StandardSchedule(String time) {
@@ -9,6 +9,12 @@ public class StandardSchedule implements Cloneable {
 
     public StandardSchedule() {
     }
+
+    @Override
+    public MovieSchedule clone() {
+        return new MovieSchedule(this.time);
+    }
+
     public void setTime(String time) {
         this.time = time;
     }
@@ -16,8 +22,4 @@ public class StandardSchedule implements Cloneable {
         return time;
     }
 
-    @Override
-    public StandardSchedule clone() {
-        return new StandardSchedule(this.time);
-    }
 }

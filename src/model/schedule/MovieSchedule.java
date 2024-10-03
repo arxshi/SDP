@@ -2,13 +2,17 @@ package model.schedule;
 
 import model.movie.Movie;
 
-public class MovieSchedule extends StandardSchedule {
+public class MovieSchedule implements Schedule {
 
     private Movie movie;
     private String time;
 
     public MovieSchedule(Movie movie, String time) {
         this.movie = movie;
+        this.time = time;
+    }
+
+    public MovieSchedule(String time) {
         this.time = time;
     }
 
@@ -32,4 +36,10 @@ public class MovieSchedule extends StandardSchedule {
     public String getTime() {
         return time;
     }
+
+    @Override
+    public Schedule clone() {
+        return new MovieSchedule();
+    }
 }
+
