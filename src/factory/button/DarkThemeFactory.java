@@ -1,7 +1,8 @@
-package factory;
+package factory.button;
 
-import model.Button;
-import model.DarkThemeButton;
+import factory.movie.UIFactory;
+import model.button.Button;
+import model.button.DarkThemeButton;
 
 public class DarkThemeFactory implements UIFactory {
     @Override

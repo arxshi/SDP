@@ -1,4 +1,4 @@
-package model;
+package model.button;
 
 public class DarkThemeButton implements Button {
     @Override

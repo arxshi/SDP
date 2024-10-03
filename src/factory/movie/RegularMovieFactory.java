@@ -1,4 +1,4 @@
-package factory;
+package factory.movie;
 
 import model.movie.Movie;
 import model.movie.RegularMovie;

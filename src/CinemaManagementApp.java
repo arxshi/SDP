@@ -1,9 +1,9 @@
 import config.CinemaConfig;
-import factory.DarkThemeFactory;
-import factory.MovieFactory;
-import factory.RegularMovieFactory;
-import factory.UIFactory;
-import model.Button;
+import factory.button.DarkThemeFactory;
+import factory.movie.MovieFactory;
+import factory.movie.RegularMovieFactory;
+import factory.movie.UIFactory;
+import model.button.Button;
 import model.TicketBooking;
 import model.movie.Movie;
 import model.schedule.MovieSchedule;

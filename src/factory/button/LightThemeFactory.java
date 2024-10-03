@@ -1,7 +1,8 @@
-package factory;
+package factory.button;
 
-import model.Button;
-import model.LightThemeButton;
+import factory.movie.UIFactory;
+import model.button.Button;
+import model.button.LightThemeButton;
 
 public class LightThemeFactory implements UIFactory {
     @Override

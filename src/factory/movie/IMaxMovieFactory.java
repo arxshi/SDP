@@ -1,4 +1,4 @@
-package factory;
+package factory.movie;
 
 import model.movie.IMaxMovie;
 import model.movie.Movie;

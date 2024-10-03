@@ -1,6 +1,6 @@
-package factory;
+package factory.movie;
 
-import model.Button;
+import model.button.Button;
 
 public interface UIFactory {
     Button createButton();
