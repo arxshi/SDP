@@ -1,7 +1,7 @@
 package adapter;
 
 import adapter.player.AudioPlayer;
-import adapter.player.MP3Player;
+import adapter.player.impl.MP3Player;
 
 public class MusicPlayerApp {
 

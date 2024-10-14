@@ -1,4 +1,6 @@
-package adapter.player;
+package adapter.player.impl;
+
+import adapter.player.AudioPlayer;
 
 public class MP3Player implements AudioPlayer {
     @Override

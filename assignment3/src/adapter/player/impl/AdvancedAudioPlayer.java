@@ -1,4 +1,7 @@
-package adapter.player;
+package adapter.player.impl;
+
+import adapter.player.AACPlayer;
+import adapter.player.WAVPlayer;
 
 public class AdvancedAudioPlayer implements WAVPlayer, AACPlayer {
     @Override

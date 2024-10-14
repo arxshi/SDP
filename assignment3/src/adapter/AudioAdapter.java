@@ -1,6 +1,6 @@
 package adapter;
 
-import adapter.player.AdvancedAudioPlayer;
+import adapter.player.impl.AdvancedAudioPlayer;
 import adapter.player.AudioPlayer;
 
 public class AudioAdapter implements AudioPlayer {
